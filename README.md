@@ -1,3 +1,17 @@
+
+
+# tescobot
+
+A Spark bot which can perform lookups on tesco.com using Tesco Labs APIs for:
+ - Grocery search
+ - Product lookup
+ - Store search
+
+ Also doubles as a messy programmers testing ground for dodgy code and experimentation...
+ Trust nothing!
+
+ All based on the excellent ciscosparkbot
+
 # ciscosparkbot
 
 A flask based Bot for Cisco spark
