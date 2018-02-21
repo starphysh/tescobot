@@ -35,6 +35,7 @@ def grocery_search(incoming_msg):
         conn = http.client.HTTPSConnection('dev.tescolabs.com')
         # conn.request("GET", "/grocery/products/?query=beans&offset=1&limit=1&%s" % params, "{body}", tesco_headers)
         # conn.request("GET", "/grocery/products/?query=%s&offset=0&limit=1" % incoming_msg, "{body}", tesco_headers)
+        # 20-Feb - Spark Bots appear to return Bot name now - which screwed up the 'replace' below.
         search_string = incoming_msg.text.replace("TescoBot /search ","")
         print("Search string:{}".format(search_string))
 
